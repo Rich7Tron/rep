@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*----------------------HEADER--------------------*/
+header{
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items:center;
+}
+li{
+    display: table-cell;
+    float: left;
+
+}
+.menu li a{
+    font-size: 18px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.menu li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.btn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 30px;
+    padding: 2px 10px;
+    margin: 0 20px;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+.img:hover{
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+/*----------------FIN HEADER--------------*/
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehYfB3Dcy_XTArysw3c5Y_FfZJfW2nVY6tpRv9Mswn21cIoqUiDrLg_9J4ZuaSG_855Y&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+section{
+    padding: 10px 20px;
+}
